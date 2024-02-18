@@ -1,0 +1,55 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+body {
+    background-color: black;
+}
+header {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+}
+main {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    color: azure;
+    
+    margin-top: 1rem;
+    padding-top: 2rem;
+}
+.container {
+    width: 500px;
+    height: 200px;
+    background-color: grey;
+}
+.container div {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin: 0.5rem;
+}
+button {
+    background-color: rgb(52, 143, 240);
+    color: azure;
+    padding: 5px;
+    border-radius: 20px;
+}
+h5 {
+    margin-top: 2rem;
+}
+ input {
+    width: 150px;
+ }
+ canvas {
+    margin-top: 2rem;
+    width: 500px;
+    height: 500px;
+ }
+ h6 {
+    margin-bottom: 10px;
+ }

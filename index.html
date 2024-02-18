@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prueba API</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Conversor de monedas nacional</h1>
+        <hr>
+    </header>
+
+    <main>
+        <div class="container">
+            <div>
+                <h3>Pesos CLP</h3>
+                <input id="monto" placeholder="Ingrese el monto en CLP">
+            </div>
+            <div>
+                <h6>Moneda a convertir:</h6>
+                <select id="monedaSelect">
+                    <option disabled selected>Seleccione moneda</option>
+                    <option value="dolar">Dólar</option>
+                    <option value="uf">UF</option>
+                </select>
+            </div>
+            <div>
+                <button id="btn">Covertir</button>
+                <h5><span id="resultado">...</span></h5>
+            </div>
+        </div>
+        <div>
+            <canvas id="myChart"></canvas>
+            
+        </div>
+    </main>
+    <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
+    <script src="assets/js/app.js"></script>
+</body>
+</html>
